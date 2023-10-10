@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Damage_Player
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-55.0,"y":-104.0758},"zoom":1.0,"elements":[{"argumentCount":1,"defaultValues":{"name":{"$content":"Damage","$type":"System.String"},"target":null},"position":{"x":69.0,"y":-250.0},"guid":"a4e6fb9a-5a58-4ddd-adad-4de30dcd0ac6","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"9"},{"type":"System.Int32","value":{"$content":10,"$type":"System.Int32"},"defaultValues":{},"position":{"x":-110.0,"y":-8.0},"guid":"3df5351c-f6a8-4638-baff-5f79dccb1c30","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"11"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-300.0,"y":-239.0},"guid":"4e94ad73-4ffe-41ce-a678-bc929f2747a6","$version":"A","$type":"Unity.VisualScripting.OnTriggerEnter","$id":"13"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"e351091b-13ba-4d99-a9d1-285fea40f471","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"output","destinationUnit":{"$ref":"9"},"destinationKey":"argument_0","guid":"a2e6b191-8aa7-4e02-80b6-2800b6dfd66d","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"collider","destinationUnit":{"$ref":"9"},"destinationKey":"target","guid":"d60c104e-0ad8-4247-81bc-99f11c2c47ec","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
