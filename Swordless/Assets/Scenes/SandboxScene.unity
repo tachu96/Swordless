@@ -2167,6 +2167,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1486639665365442893, guid: 080ee5788cc4b4044b22f32316d8546c,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 3.1971467
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486639665365442893, guid: 080ee5788cc4b4044b22f32316d8546c,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 10.4371605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486639665365442893, guid: 080ee5788cc4b4044b22f32316d8546c,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.41614997
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486639665365442893, guid: 080ee5788cc4b4044b22f32316d8546c,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 4.71858
+      objectReference: {fileID: 0}
     - target: {fileID: 5047231932852098571, guid: 080ee5788cc4b4044b22f32316d8546c,
         type: 3}
       propertyPath: m_Name
@@ -2235,6 +2255,17 @@ PrefabInstance:
     - target: {fileID: 8006718605560433785, guid: 080ee5788cc4b4044b22f32316d8546c,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134934031623458687, guid: 080ee5788cc4b4044b22f32316d8546c,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"cameraPosition_Player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134934031623458687, guid: 080ee5788cc4b4044b22f32316d8546c,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8134934031623458687, guid: 080ee5788cc4b4044b22f32316d8546c,
@@ -2631,6 +2662,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 763836157717522387, guid: ee3cfc8170a03db47bf266590623b61e,
         type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"moveSpeed","value":{"$content":7.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"orientation","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"horizontalInput","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"verticalInput","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"moveDirection","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"rigidBody","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Rigidbody,
+        UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MovementSpeedFactor","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playerHeight","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GroundLayer","value":{"value":64,"$type":"UnityEngine.LayerMask"},"typeHandle":{"Identification":"UnityEngine.LayerMask,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GroundDrag","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"jumpForce","value":{"$content":12.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"JumpCooldown","value":{"$content":0.25,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"airMultiplier","value":{"$content":0.4,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"jumpKey","value":{"$content":"Space","$type":"UnityEngine.KeyCode"},"typeHandle":{"Identification":"UnityEngine.KeyCode,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ShieldFunctionalObj","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ShieldVisual","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.MeshRenderer,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Player
+        Health","value":{"$content":100,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerHealthBar","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 763836157717522387, guid: ee3cfc8170a03db47bf266590623b61e,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 763836157717522387, guid: ee3cfc8170a03db47bf266590623b61e,
+        type: 3}
       propertyPath: _data._objectReferences.Array.data[2]
       value: 
       objectReference: {fileID: 1013651111}
@@ -2659,7 +2719,13 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: 0.005368352
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7668462653309243401, guid: ee3cfc8170a03db47bf266590623b61e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7668462653309243401, guid: ee3cfc8170a03db47bf266590623b61e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
