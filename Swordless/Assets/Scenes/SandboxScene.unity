@@ -1046,7 +1046,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &87677959
 Transform:
   m_ObjectHideFlags: 0
@@ -18460,58 +18460,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 265940622950132045, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1486639665365442893, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 3.1951132
-      objectReference: {fileID: 0}
-    - target: {fileID: 1486639665365442893, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 3.1971467
-      objectReference: {fileID: 0}
-    - target: {fileID: 1486639665365442893, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 10.4371605
-      objectReference: {fileID: 0}
-    - target: {fileID: 1486639665365442893, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_Center.x
-      value: -0.028163183
-      objectReference: {fileID: 0}
-    - target: {fileID: 1486639665365442893, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_Center.y
-      value: 0.41614997
-      objectReference: {fileID: 0}
-    - target: {fileID: 1486639665365442893, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_Center.z
-      value: 4.71858
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062099078730595012, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"ReflectedThing","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ReflectableLayerMaskInteger","value":{"$content":7,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Camera","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"rangeOfRaycast","value":{"$content":500.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"raycastLayers","value":{"value":759,"$type":"UnityEngine.LayerMask"},"typeHandle":{"Identification":"UnityEngine.LayerMask,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ShieldVisualAnimatorController","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Animator,
-        UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ShieldKnockbackObject","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 3808356225998079154, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5047231932852098571, guid: 080ee5788cc4b4044b22f32316d8546c,
         type: 3}
       propertyPath: m_Name
@@ -18572,70 +18520,13 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 176331906}
-    - target: {fileID: 6734787460432476166, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1.3733524
-      objectReference: {fileID: 0}
-    - target: {fileID: 6734787460432476166, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 6.8815737
-      objectReference: {fileID: 0}
-    - target: {fileID: 6734787460432476166, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 4.6418824
-      objectReference: {fileID: 0}
-    - target: {fileID: 6734787460432476166, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_Center.x
-      value: 0.18667637
-      objectReference: {fileID: 0}
-    - target: {fileID: 6734787460432476166, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_Center.y
-      value: -0.09446185
-      objectReference: {fileID: 0}
-    - target: {fileID: 6734787460432476166, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_Center.z
-      value: 0.105814725
-      objectReference: {fileID: 0}
-    - target: {fileID: 6734787460432476166, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7887985073000098479, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8006718605560433785, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8134934031623458687, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"cameraPosition_Player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 8134934031623458687, guid: 080ee5788cc4b4044b22f32316d8546c,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8134934031623458687, guid: 080ee5788cc4b4044b22f32316d8546c,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 1722965722}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 7887985073000098479, guid: 080ee5788cc4b4044b22f32316d8546c, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 080ee5788cc4b4044b22f32316d8546c, type: 3}
