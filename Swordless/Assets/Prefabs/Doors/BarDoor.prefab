@@ -320,7 +320,6 @@ Transform:
   - {fileID: 8520811256217274714}
   - {fileID: 5579116260685011231}
   - {fileID: 8719025684516498274}
-  - {fileID: 2221007922800152369}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!114 &6334229695968906943
@@ -341,7 +340,7 @@ MonoBehaviour:
       UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 5823991180619886850}
-    - {fileID: 61903691981093488}
+    - {fileID: 0}
 --- !u!114 &6613988200564580377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,7 +356,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 6d55fb01e052c8f4cb7bf472724d08f2, type: 2}
+    - {fileID: 11400000, guid: f28b7823b397d304f88bf3d795069632, type: 2}
 --- !u!95 &3596619446433133088
 Animator:
   serializedVersion: 5
@@ -415,59 +414,6 @@ Transform:
   - {fileID: 6052794657406114156}
   m_Father: {fileID: 2107102323379949350}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5381365101490368400
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2221007922800152369}
-  - component: {fileID: 61903691981093488}
-  m_Layer: 0
-  m_Name: DoorTriggerRange
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2221007922800152369
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5381365101490368400}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.56, z: 0}
-  m_LocalScale: {x: 2.2829, y: 1, z: 2.2644362}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2107102323379949350}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &61903691981093488
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5381365101490368400}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5792093778606873350
 GameObject:
   m_ObjectHideFlags: 0
