@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4952055871581008072}
   m_Layer: 9
   m_Name: ReflectivePillarBase
-  m_TagString: Enemy
+  m_TagString: ReflectivePillar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34,6 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 966771483309324191}
+  - {fileID: 4574771629291639379}
   m_Father: {fileID: 8532094057862239421}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5555444191060809267
@@ -131,9 +132,9 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1 &1786393946771749446
 GameObject:
   m_ObjectHideFlags: 0
@@ -145,7 +146,7 @@ GameObject:
   - component: {fileID: 6863261716074338608}
   - component: {fileID: 6282839109144426029}
   - component: {fileID: 6088195150815823325}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Pillar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,7 +232,7 @@ GameObject:
   - component: {fileID: 5350908416835011349}
   - component: {fileID: 7235419773849318195}
   - component: {fileID: 6255333458069391492}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ReflectivePillarFunctionality
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,8 +324,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.9999999, y: 4.036421, z: 0.9999999}
-  m_Center: {x: 0, y: 0.33355778, z: 0}
+  m_Size: {x: 1.1770935, y: 5.7716656, z: 1.2851149}
+  m_Center: {x: 0.088546686, y: 0.30585003, z: -0.0429341}
 --- !u!114 &7235419773849318195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,7 +343,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ReflectableLayerMaskInteger","value":{"$content":7,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ReflectivePoint","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"rangeOfRaycast","value":{"$content":500.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"raycastLayers","value":{"value":759,"$type":"UnityEngine.LayerMask"},"typeHandle":{"Identification":"UnityEngine.LayerMask,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"raycastLayers","value":{"value":755,"$type":"UnityEngine.LayerMask"},"typeHandle":{"Identification":"UnityEngine.LayerMask,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 7021059362183106303}
@@ -374,7 +375,8 @@ GameObject:
   - component: {fileID: 8670977751265117070}
   - component: {fileID: 7081258067083367735}
   - component: {fileID: 8636996018893676056}
-  m_Layer: 8
+  - component: {fileID: 8417520015540067021}
+  m_Layer: 9
   m_Name: ShieldReflectiveBounceUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -516,7 +518,7 @@ MonoBehaviour:
   playerCam: {fileID: 4646933714224089780}
   layerMask:
     serializedVersion: 2
-    m_Bits: 247
+    m_Bits: 243
 --- !u!95 &8636996018893676056
 Animator:
   serializedVersion: 5
@@ -538,6 +540,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8417520015540067021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2187095722112073697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &2286972450318149738
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,7 +566,7 @@ GameObject:
   - component: {fileID: 2411794737356752349}
   - component: {fileID: 8414572023494105515}
   - component: {fileID: 1599389422801084216}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,8 +647,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4574771629291639379}
-  m_Layer: 0
-  m_Name: pillar_LOW
+  m_Layer: 9
+  m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -645,14 +662,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3762487161795299561}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05000007, y: -1.04, z: 0.17999983}
-  m_LocalScale: {x: 1, y: 0.9160282, z: 1}
+  m_LocalRotation: {x: -0, y: 0.000000029802315, z: -0, w: 1}
+  m_LocalPosition: {x: 0.081823714, y: -1.0148221, z: 0.29455596}
+  m_LocalScale: {x: 1.6364204, y: 0.89385164, z: 1.6364204}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2411794737356752349}
   - {fileID: 6863261716074338608}
-  m_Father: {fileID: 8532094057862239421}
+  m_Father: {fileID: 8018602894305661424}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3855665119328954268
 GameObject:
@@ -683,7 +700,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4574771629291639379}
   - {fileID: 8018602894305661424}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -698,7 +714,9 @@ GameObject:
   - component: {fileID: 4646933714224089780}
   - component: {fileID: 3237931026872926025}
   - component: {fileID: 4531128791047747682}
-  m_Layer: 0
+  - component: {fileID: 477398826519852731}
+  - component: {fileID: 8918938680154476108}
+  m_Layer: 9
   m_Name: ReflectivePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -771,3 +789,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &477398826519852731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021059362183106303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LineRendererObject","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2187095722112073697}
+--- !u!114 &8918938680154476108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021059362183106303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe58df89b5b74a97a123b5ed2b70422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: cc2180a79b4b32f4ea4de7359f047b5b, type: 2}
