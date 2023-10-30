@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.19454986, g: 0.15498646, b: 0.12535863, a: 1}
+  m_IndirectSpecularColor: {r: 0.34787482, g: 0.27710357, b: 0.22411016, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -382,6 +382,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1091002314}
     m_Modifications:
+    - target: {fileID: 93061412456038073, guid: e0a99fabfae48904d94230557d1a219c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 719957634947808681, guid: e0a99fabfae48904d94230557d1a219c,
         type: 3}
       propertyPath: m_LocalScale.z
@@ -396,6 +401,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 785793122598706572, guid: e0a99fabfae48904d94230557d1a219c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7198861054883834052, guid: e0a99fabfae48904d94230557d1a219c,
         type: 3}
