@@ -5308,6 +5308,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 494921189}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &501868336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3633368347814539690, guid: 080ee5788cc4b4044b22f32316d8546c,
+    type: 3}
+  m_PrefabInstance: {fileID: 881563554502597792}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &509743394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24911,12 +24917,12 @@ PrefabInstance:
     - target: {fileID: 640828981078323328, guid: ee3cfc8170a03db47bf266590623b61e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.734
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 640828981078323328, guid: ee3cfc8170a03db47bf266590623b61e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.642
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 640828981078323328, guid: ee3cfc8170a03db47bf266590623b61e,
         type: 3}
@@ -24979,12 +24985,13 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"maxSlopeAngle","value":{"$content":45.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SlopeHit","value":{"$type":"UnityEngine.RaycastHit"},"typeHandle":{"Identification":"UnityEngine.RaycastHit,
         UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ShieldFunctionalObject","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"KnockbackAreaFunctionality","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 763836157717522387, guid: ee3cfc8170a03db47bf266590623b61e,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 763836157717522387, guid: ee3cfc8170a03db47bf266590623b61e,
         type: 3}
@@ -25006,6 +25013,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[5]
       value: 
       objectReference: {fileID: 881563554502597793}
+    - target: {fileID: 763836157717522387, guid: ee3cfc8170a03db47bf266590623b61e,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[6]
+      value: 
+      objectReference: {fileID: 501868336}
     - target: {fileID: 4455339687142367605, guid: ee3cfc8170a03db47bf266590623b61e,
         type: 3}
       propertyPath: m_Name
