@@ -728,7 +728,7 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ObjectToSpawn","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"IsAttackOnCooldown","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayedAlertSound","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HidingPointsList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.Transform,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HidingPointsList","value":{"$content":[7],"$type":"System.Collections.Generic.List`1[[UnityEngine.Transform,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.Transform,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"RandomProjectilesToShootPerAttack","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
@@ -738,7 +738,7 @@ PrefabInstance:
     - target: {fileID: 6656587064601796230, guid: 5011e08a74c6b3e4d815c0420cdbdd4a,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6656587064601796230, guid: 5011e08a74c6b3e4d815c0420cdbdd4a,
         type: 3}
@@ -756,6 +756,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1401699771342735160, guid: 6158a02958ce1d241a37a84077125c5d,
         type: 3}
+    - target: {fileID: 6656587064601796230, guid: 5011e08a74c6b3e4d815c0420cdbdd4a,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[7]
+      value: 
+      objectReference: {fileID: 1963235635}
     - target: {fileID: 6672539949467510578, guid: 5011e08a74c6b3e4d815c0420cdbdd4a,
         type: 3}
       propertyPath: m_Name
@@ -8723,6 +8728,49 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.00000023842
       objectReference: {fileID: 0}
+    - target: {fileID: 6656587064601796230, guid: 5011e08a74c6b3e4d815c0420cdbdd4a,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"EnemyHealth","value":{"$content":100.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemyHealthBar","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerCamera","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyHealthBarBacking","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"spawnPoint","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"arrow","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Destination
+        List","value":{"$content":[null,null,null,null],"$type":"System.Collections.Generic.List`1[[UnityEngine.Transform,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.Transform,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"destination","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerInRange","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DetectionRange","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CanSeePlayer","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"LayerMasksForRaycast","value":{"value":832,"$type":"UnityEngine.LayerMask"},"typeHandle":{"Identification":"UnityEngine.LayerMask,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"rotationSpeed","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DirectionToPlayerNoY","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LineOfSightAngle","value":{"$content":40.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackStartupCooldown","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackCooldown","value":{"$content":1.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ObjectToSpawn","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"IsAttackOnCooldown","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayedAlertSound","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HidingPointsList","value":{"$content":[6],"$type":"System.Collections.Generic.List`1[[UnityEngine.Transform,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.Transform,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"RandomProjectilesToShootPerAttack","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"StartStop","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6656587064601796230, guid: 5011e08a74c6b3e4d815c0420cdbdd4a,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6656587064601796230, guid: 5011e08a74c6b3e4d815c0420cdbdd4a,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[6]
+      value: 
+      objectReference: {fileID: 1859241651}
     - target: {fileID: 6672539949467510578, guid: 5011e08a74c6b3e4d815c0420cdbdd4a,
         type: 3}
       propertyPath: m_Name
@@ -12963,6 +13011,85 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5129c086ff3472468ffbdab8b6bcb06, type: 3}
+--- !u!1001 &1669010719
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4259094482783313871, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 4259094482783313871, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_Name
+      value: Waypoint_AI_target_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6909587093295788252, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 192.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -302.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65d02b74f9b13994da2986a7db8dead8, type: 3}
 --- !u!1001 &1674914302
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14380,6 +14507,91 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1853876080}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1859241650
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4259094482783313871, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 4259094482783313871, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_Name
+      value: Waypoint_AI_target_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6909587093295788252, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65d02b74f9b13994da2986a7db8dead8, type: 3}
+--- !u!4 &1859241651 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1859241650}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1861041861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15294,6 +15506,91 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!1001 &1963235634
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4259094482783313871, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 4259094482783313871, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_Name
+      value: Waypoint_AI_target_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6909587093295788252, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65d02b74f9b13994da2986a7db8dead8, type: 3}
+--- !u!4 &1963235635 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8810688281641833377, guid: 65d02b74f9b13994da2986a7db8dead8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1963235634}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1967287488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18719,6 +19016,9 @@ SceneRoots:
   - {fileID: 1732297618}
   - {fileID: 435987559}
   - {fileID: 1215278785}
+  - {fileID: 1859241650}
+  - {fileID: 1963235634}
+  - {fileID: 1669010719}
   - {fileID: 176267478}
   - {fileID: 2119909287}
   - {fileID: 972028873}
