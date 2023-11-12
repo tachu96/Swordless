@@ -6815,7 +6815,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chest_1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1413606488503384532, guid: 6e712b1020503ad41b577b2794ba9542, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -14483,59 +14484,35 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1411449967}
     m_Modifications:
-    - target: {fileID: 145803948831062231, guid: 6e712b1020503ad41b577b2794ba9542,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -876546973899608171, guid: 927165d6610d71543b6121a61417b448,
-        type: 3}
-    - target: {fileID: 4884266154971952827, guid: 6e712b1020503ad41b577b2794ba9542,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"HealthSpawnPoints","value":{"$content":[0,1,2,3,4],"$type":"System.Collections.Generic.List`1[[UnityEngine.Transform,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.Transform,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HealthToSpawn","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Visuals","value":{"$content":[5,6,7],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5978551606956418950, guid: 6e712b1020503ad41b577b2794ba9542,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -876546973899608171, guid: 927165d6610d71543b6121a61417b448,
-        type: 3}
     - target: {fileID: 6647256469694939680, guid: 6e712b1020503ad41b577b2794ba9542,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2982333
+      value: 1.4088691
       objectReference: {fileID: 0}
     - target: {fileID: 6647256469694939680, guid: 6e712b1020503ad41b577b2794ba9542,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.726
+      value: 0.78787
       objectReference: {fileID: 0}
     - target: {fileID: 6647256469694939680, guid: 6e712b1020503ad41b577b2794ba9542,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.726
+      value: 0.78787
       objectReference: {fileID: 0}
     - target: {fileID: 6647256469694939680, guid: 6e712b1020503ad41b577b2794ba9542,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.039
+      value: -0.14
       objectReference: {fileID: 0}
     - target: {fileID: 6647256469694939680, guid: 6e712b1020503ad41b577b2794ba9542,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.14224984
+      value: -0.007230997
       objectReference: {fileID: 0}
     - target: {fileID: 6647256469694939680, guid: 6e712b1020503ad41b577b2794ba9542,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.22286251
+      value: 0.68
       objectReference: {fileID: 0}
     - target: {fileID: 6647256469694939680, guid: 6e712b1020503ad41b577b2794ba9542,
         type: 3}
@@ -26583,20 +26560,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1447670987024471626, guid: 91852e26e6ae0644797d49f438f74b61,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447670987024471626, guid: 91852e26e6ae0644797d49f438f74b61,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447670987024471626, guid: 91852e26e6ae0644797d49f438f74b61,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447670987024471626, guid: 91852e26e6ae0644797d49f438f74b61,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447670987024471626, guid: 91852e26e6ae0644797d49f438f74b61,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -359.999
+      objectReference: {fileID: 0}
     - target: {fileID: 4427119351190320771, guid: 91852e26e6ae0644797d49f438f74b61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.08899988
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4427119351190320771, guid: 91852e26e6ae0644797d49f438f74b61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.25
+      value: 1.23
       objectReference: {fileID: 0}
     - target: {fileID: 4427119351190320771, guid: 91852e26e6ae0644797d49f438f74b61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6320001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4427119351190320771, guid: 91852e26e6ae0644797d49f438f74b61,
         type: 3}
