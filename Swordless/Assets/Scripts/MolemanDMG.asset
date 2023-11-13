@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: MolemanDMG
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":241.8584,"y":-99.847},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-253.0,"y":-246.0},"guid":"0b34c099-1970-4f55-a888-1a92040c1987","$version":"A","$type":"Unity.VisualScripting.OnTriggerStay","$id":"9"},{"argumentCount":0,"defaultValues":{"name":{"$content":"Damage","$type":"System.String"},"target":null},"position":{"x":256.0,"y":-257.0},"guid":"a8bf476c-6f54-4926-ae5d-e68e7ab3f3ac","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"11"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"600db265-0056-45e7-bb10-6393b160452f","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
