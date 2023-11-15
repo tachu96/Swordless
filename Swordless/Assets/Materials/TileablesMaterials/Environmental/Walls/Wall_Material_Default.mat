@@ -28,6 +28,18 @@ Material:
         m_Texture: {fileID: 2800000, guid: 0ea8bd1b009f0bb41b357808e1a1470c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _BaseMap_Diffuse:
+        m_Texture: {fileID: 2800000, guid: 0ea8bd1b009f0bb41b357808e1a1470c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap_Metal:
+        m_Texture: {fileID: 2800000, guid: bba06daf119ae3b41b665210e181c986, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap_Normal:
+        m_Texture: {fileID: 2800000, guid: 3031c0796018fd04198dbff4abfef3e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 3031c0796018fd04198dbff4abfef3e6, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -49,7 +61,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ForthMap_Blue:
-        m_Texture: {fileID: 2800000, guid: 44cced520ecfd9f4292979a4fe8268c4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0ea8bd1b009f0bb41b357808e1a1470c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ForthMap_Blue_Metal:
+        m_Texture: {fileID: 2800000, guid: bba06daf119ae3b41b665210e181c986, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ForthMap_Blue_Normal:
+        m_Texture: {fileID: 2800000, guid: 3031c0796018fd04198dbff4abfef3e6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -69,7 +89,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SecondaryMap_Red:
-        m_Texture: {fileID: 2800000, guid: 3d6064e2e1cd7214e9f67f3a68f494fb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0ea8bd1b009f0bb41b357808e1a1470c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryMap_Red_Normal:
+        m_Texture: {fileID: 2800000, guid: 3031c0796018fd04198dbff4abfef3e6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -77,7 +101,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ThirtiaryMap_Green:
-        m_Texture: {fileID: 2800000, guid: 382df89af99b9f2459dd19206e68a63d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0ea8bd1b009f0bb41b357808e1a1470c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThirtiaryMap_Green_Normal:
+        m_Texture: {fileID: 2800000, guid: 3031c0796018fd04198dbff4abfef3e6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -118,6 +146,8 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
+    - _SmoothnessOfBaseMaterial: 0
+    - _SmoothnessOfFourthMaterial: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
