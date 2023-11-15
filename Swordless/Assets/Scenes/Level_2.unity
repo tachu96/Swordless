@@ -20,12 +20,12 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientSkyColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+  m_AmbientEquatorColor: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
+  m_AmbientGroundColor: {r: 0.9339623, g: 0, b: 0.00974733, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_AmbientMode: 1
+  m_SubtractiveShadowColor: {r: 0.23131008, g: 0.28866443, b: 0.4339623, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: e6ed208f0dcab0345a097ff131b25342, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -37,8 +37,8 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.34787482, g: 0.27710357, b: 0.22411016, a: 1}
+  m_Sun: {fileID: 1841094960}
+  m_IndirectSpecularColor: {r: 0.19454986, g: 0.15498646, b: 0.12535863, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9960,7 +9960,7 @@ PrefabInstance:
     - target: {fileID: 276976784645732637, guid: 25ffe70d7e4fe6447be3a2a0d944b931,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.36
+      value: -3.93
       objectReference: {fileID: 0}
     - target: {fileID: 964235767112448722, guid: 25ffe70d7e4fe6447be3a2a0d944b931,
         type: 3}
@@ -10116,7 +10116,7 @@ PrefabInstance:
     - target: {fileID: 6028620916024529843, guid: 25ffe70d7e4fe6447be3a2a0d944b931,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.4799995
+      value: 0.58
       objectReference: {fileID: 0}
     - target: {fileID: 6053270650807494757, guid: 25ffe70d7e4fe6447be3a2a0d944b931,
         type: 3}
@@ -10217,7 +10217,7 @@ PrefabInstance:
     - target: {fileID: 8879555361119967155, guid: 25ffe70d7e4fe6447be3a2a0d944b931,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.7
+      value: -11.25
       objectReference: {fileID: 0}
     - target: {fileID: 8879555361119967155, guid: 25ffe70d7e4fe6447be3a2a0d944b931,
         type: 3}
@@ -17721,6 +17721,37 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1796416640}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1809330678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1809330679}
+  m_Layer: 0
+  m_Name: JukeBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1809330679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809330678}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.897235, y: 7.276087, z: -67.00691}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1809599704
 GameObject:
   m_ObjectHideFlags: 0
@@ -17955,7 +17986,7 @@ GameObject:
   - component: {fileID: 1841094960}
   - component: {fileID: 1841094959}
   m_Layer: 0
-  m_Name: Directional Light
+  m_Name: Sun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17995,8 +18026,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.495283, b: 0.495283, a: 1}
-  m_Intensity: 0.21
+  m_Color: {r: 1, g: 0.6179246, b: 0.6179246, a: 1}
+  m_Intensity: 0.61
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -23122,3 +23153,4 @@ SceneRoots:
   - {fileID: 670076217}
   - {fileID: 1972876765}
   - {fileID: 1841094961}
+  - {fileID: 1809330679}
