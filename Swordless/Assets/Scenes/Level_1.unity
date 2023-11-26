@@ -3701,7 +3701,7 @@ Transform:
   m_GameObject: {fileID: 260429641}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.49, y: -5.92, z: 20.57}
+  m_LocalPosition: {x: -4.76, y: -5.92, z: 18.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8541,22 +8541,22 @@ PrefabInstance:
     - target: {fileID: 7493731554772710621, guid: 4872801eeb9ba8b40bd8bb646bac49ae,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.7071072
       objectReference: {fileID: 0}
     - target: {fileID: 7493731554772710621, guid: 4872801eeb9ba8b40bd8bb646bac49ae,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7493731554772710621, guid: 4872801eeb9ba8b40bd8bb646bac49ae,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: -0.7071064
       objectReference: {fileID: 0}
     - target: {fileID: 7493731554772710621, guid: 4872801eeb9ba8b40bd8bb646bac49ae,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7493731554772710621, guid: 4872801eeb9ba8b40bd8bb646bac49ae,
         type: 3}
@@ -8566,7 +8566,7 @@ PrefabInstance:
     - target: {fileID: 7493731554772710621, guid: 4872801eeb9ba8b40bd8bb646bac49ae,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 7493731554772710621, guid: 4872801eeb9ba8b40bd8bb646bac49ae,
         type: 3}
@@ -8794,22 +8794,22 @@ PrefabInstance:
     - target: {fileID: 7493731554772710621, guid: 4872801eeb9ba8b40bd8bb646bac49ae,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.70710695
       objectReference: {fileID: 0}
     - target: {fileID: 7493731554772710621, guid: 4872801eeb9ba8b40bd8bb646bac49ae,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7493731554772710621, guid: 4872801eeb9ba8b40bd8bb646bac49ae,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: -0.7071066
       objectReference: {fileID: 0}
     - target: {fileID: 7493731554772710621, guid: 4872801eeb9ba8b40bd8bb646bac49ae,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7493731554772710621, guid: 4872801eeb9ba8b40bd8bb646bac49ae,
         type: 3}
@@ -8819,7 +8819,7 @@ PrefabInstance:
     - target: {fileID: 7493731554772710621, guid: 4872801eeb9ba8b40bd8bb646bac49ae,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 7493731554772710621, guid: 4872801eeb9ba8b40bd8bb646bac49ae,
         type: 3}
@@ -21085,8 +21085,19 @@ PrefabInstance:
         UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ShieldKnockbackObject","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ReflectionPoint","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"WizardProjectileLayerMaskInteger","value":{"$content":13,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ShieldReflectionTrigger","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+    - target: {fileID: 850700868988862890, guid: 79be366391f36364c853000837519778,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 850700868988862890, guid: 79be366391f36364c853000837519778,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[4]
+      value: 
+      objectReference: {fileID: 6549448773410021522}
     - target: {fileID: 1391623317710894438, guid: 79be366391f36364c853000837519778,
         type: 3}
       propertyPath: m_Enabled
@@ -22372,17 +22383,17 @@ PrefabInstance:
     - target: {fileID: 6873967199432430954, guid: 14fbe3758b5709c45b7ecfb5c95c9d3a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.450005
+      value: -55.12
       objectReference: {fileID: 0}
     - target: {fileID: 6873967199432430954, guid: 14fbe3758b5709c45b7ecfb5c95c9d3a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2100034
+      value: -7.77
       objectReference: {fileID: 0}
     - target: {fileID: 6873967199432430954, guid: 14fbe3758b5709c45b7ecfb5c95c9d3a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.889997
+      value: 17.1
       objectReference: {fileID: 0}
     - target: {fileID: 6873967199432430954, guid: 14fbe3758b5709c45b7ecfb5c95c9d3a,
         type: 3}
