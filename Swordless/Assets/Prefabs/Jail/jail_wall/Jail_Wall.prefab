@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1220210661384385792}
   - component: {fileID: 6606123080126356411}
   - component: {fileID: 2706191907369971575}
+  - component: {fileID: 2302439530523006352}
   m_Layer: 0
   m_Name: Jail_Wall
   m_TagString: Untagged
@@ -84,3 +85,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &2302439530523006352
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2885598767226769932}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.040000003, y: 0.83100003, z: 1.442}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: -0.823, z: 0}
+  m_TimeToStationary: 0.5
