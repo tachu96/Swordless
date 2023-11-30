@@ -8149,6 +8149,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 308413619782924000, guid: 5b146ed09d473cc4c8551261d050e136,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 499304438896413011, guid: 5b146ed09d473cc4c8551261d050e136,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 810840160497354654, guid: 5b146ed09d473cc4c8551261d050e136,
         type: 3}
       propertyPath: m_Name
@@ -8179,6 +8189,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2379318257783197233, guid: 5b146ed09d473cc4c8551261d050e136,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5236184967389525183, guid: 5b146ed09d473cc4c8551261d050e136,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8192,7 +8207,7 @@ PrefabInstance:
     - target: {fileID: 5236184967389525183, guid: 5b146ed09d473cc4c8551261d050e136,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -49.2
+      value: -49.49
       objectReference: {fileID: 0}
     - target: {fileID: 5236184967389525183, guid: 5b146ed09d473cc4c8551261d050e136,
         type: 3}
@@ -12080,6 +12095,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9855b983fcc412a41bc03a61282f974c, type: 2}
+    - target: {fileID: 4306119635484030389, guid: 0633d1fa940fd474dadefd42fd22d39a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4315594858143864783, guid: 0633d1fa940fd474dadefd42fd22d39a,
         type: 3}
       propertyPath: m_IsActive
@@ -12226,6 +12246,11 @@ PrefabInstance:
       value: 0.20880127
       objectReference: {fileID: 0}
     - target: {fileID: 5467234997764642605, guid: 0633d1fa940fd474dadefd42fd22d39a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5467502982750257291, guid: 0633d1fa940fd474dadefd42fd22d39a,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -12602,6 +12627,11 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7781954192666851714, guid: 0633d1fa940fd474dadefd42fd22d39a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7784633696572753897, guid: 0633d1fa940fd474dadefd42fd22d39a,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -15826,6 +15856,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 661531847}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &666050063 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5331979469781049309, guid: 91852e26e6ae0644797d49f438f74b61,
+    type: 3}
+  m_PrefabInstance: {fileID: 1305677327}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &667013061
 GameObject:
   m_ObjectHideFlags: 0
@@ -18819,6 +18855,8 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Main
       Menu","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"FadingLevelTransition","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"InstructionScroll","value":{"$content":12,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ReadScrollInstruction","value":{"$content":13,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 492221719}
@@ -18833,6 +18871,8 @@ MonoBehaviour:
     - {fileID: 2004444194}
     - {fileID: 292224977}
     - {fileID: 1305677331}
+    - {fileID: 666050063}
+    - {fileID: 1646462966}
 --- !u!4 &775007830
 Transform:
   m_ObjectHideFlags: 0
@@ -39281,6 +39321,12 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &1646462966 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2430480744100030977, guid: 91852e26e6ae0644797d49f438f74b61,
+    type: 3}
+  m_PrefabInstance: {fileID: 1305677327}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1647395005
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49456,6 +49502,19 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ScrollObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833130499490797608, guid: e4b3e5c6a7ce2384baa9734173c21bbc,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"ScrollTrigger","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"InstructionPictureTexture","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Texture,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"NarrationClip","value":null,"typeHandle":{"Identification":"UnityEngine.AudioClip,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833130499490797608, guid: e4b3e5c6a7ce2384baa9734173c21bbc,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7598490752291157724, guid: e4b3e5c6a7ce2384baa9734173c21bbc,
         type: 3}
