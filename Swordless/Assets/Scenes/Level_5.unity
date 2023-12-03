@@ -18938,6 +18938,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"FadingLevelTransition","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"InstructionScroll","value":{"$content":12,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ReadScrollInstruction","value":{"$content":13,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PolishGlobalSoundEffects","value":{"$content":14,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 492221719}
@@ -18954,6 +18955,7 @@ MonoBehaviour:
     - {fileID: 1305677331}
     - {fileID: 666050063}
     - {fileID: 1646462966}
+    - {fileID: 1088810634}
 --- !u!4 &775007830
 Transform:
   m_ObjectHideFlags: 0
@@ -26388,6 +26390,80 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 605858508123594169, guid: 1b8479eb6c1887e4798f91655eb17d44,
     type: 3}
   m_PrefabInstance: {fileID: 1088521670}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1088810633
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3658821
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.35652447
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.886464
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3431592607986281941, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_Name
+      value: PolishExclusiveGlobalSoundEffects
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e47f368924f053e4f85066f087ded406, type: 3}
+--- !u!1 &1088810634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3431592607986281941, guid: e47f368924f053e4f85066f087ded406,
+    type: 3}
+  m_PrefabInstance: {fileID: 1088810633}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1091708276 stripped
 Transform:
@@ -50209,6 +50285,7 @@ SceneRoots:
   - {fileID: 2199059289812091010}
   - {fileID: 62270752}
   - {fileID: 2553118057696718975}
+  - {fileID: 1088810633}
   - {fileID: 1506544146}
   - {fileID: 827013111}
   - {fileID: 498469844}

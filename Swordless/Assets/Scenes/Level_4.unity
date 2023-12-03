@@ -5620,6 +5620,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Main
       Menu","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"FadingLevelTransition","value":{"$content":12,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PolishGlobalSoundEffects","value":{"$content":13,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 641967853}
@@ -5635,6 +5636,7 @@ MonoBehaviour:
     - {fileID: 139350528}
     - {fileID: 707230963}
     - {fileID: 645294553}
+    - {fileID: 1121605999}
 --- !u!4 &775007830
 Transform:
   m_ObjectHideFlags: 0
@@ -8028,6 +8030,80 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3521401556555774189, guid: 12c10ff22ca444046a976b7ae728eee9,
     type: 3}
   m_PrefabInstance: {fileID: 1115986600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1121605998
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3658821
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.35652447
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.886464
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3431592607986281941, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_Name
+      value: PolishExclusiveGlobalSoundEffects
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e47f368924f053e4f85066f087ded406, type: 3}
+--- !u!1 &1121605999 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3431592607986281941, guid: e47f368924f053e4f85066f087ded406,
+    type: 3}
+  m_PrefabInstance: {fileID: 1121605998}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1140980910
 PrefabInstance:
@@ -18057,3 +18133,4 @@ SceneRoots:
   - {fileID: 867890936}
   - {fileID: 898488202}
   - {fileID: 139350530}
+  - {fileID: 1121605998}
