@@ -18134,6 +18134,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 735448938}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &737497177 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3431592607986281941, guid: e47f368924f053e4f85066f087ded406,
+    type: 3}
+  m_PrefabInstance: {fileID: 1843350586180463790}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &737497178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737497177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe58df89b5b74a97a123b5ed2b70422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 24cf2c5d836f9954a86e330ae211c5e0, type: 2}
+--- !u!114 &737497179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737497177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1001 &739332438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19106,6 +19143,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Main
       Menu","value":{"$content":18,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"FadingLevelTransition","value":{"$content":19,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PolishGlobalSoundEffects","value":{"$content":20,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1247331826}
@@ -19128,6 +19166,7 @@ MonoBehaviour:
     - {fileID: 1641985720}
     - {fileID: 85556195}
     - {fileID: 1400851287}
+    - {fileID: 737497177}
 --- !u!4 &775007830
 Transform:
   m_ObjectHideFlags: 0
@@ -57189,6 +57228,82 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb4eb78012d6b5240ab427b8014c438b, type: 3}
+--- !u!1001 &1843350586180463790
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3658821
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.35652447
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.886464
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361808386817437037, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3431592607986281941, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      propertyPath: m_Name
+      value: PolishExclusiveGlobalSoundEffects
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3431592607986281941, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 737497179}
+    - targetCorrespondingSourceObject: {fileID: 3431592607986281941, guid: e47f368924f053e4f85066f087ded406,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 737497178}
+  m_SourcePrefab: {fileID: 100100000, guid: e47f368924f053e4f85066f087ded406, type: 3}
 --- !u!1001 &1863942882719060945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59809,3 +59924,4 @@ SceneRoots:
   - {fileID: 1970723486}
   - {fileID: 1641985722}
   - {fileID: 1606757591}
+  - {fileID: 1843350586180463790}

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530e556d4407947dcae7102ff497587d, type: 3}
+  m_Name: PlaySoundAtPosition
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Start","summary":null,"pan":{"x":53.0,"y":-2.0},"zoom":1.0,"elements":[{"chainable":false,"parameterNames":["clip","position"],"member":{"name":"PlayClipAtPoint","parameterTypes":["UnityEngine.AudioClip","UnityEngine.Vector3"],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"%clip":null,"%position":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":226.0,"y":-76.0},"guid":"ac16ee4d-f94a-4a4d-9076-f2f9ed1523aa","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"argumentCount":2,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"PlaySoundAtPosition","$type":"System.String"}},"position":{"x":-311.0,"y":-76.0},"guid":"e2a9c7fa-b128-4abd-afda-887f1fa9526f","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"17"},{"sourceUnit":{"$ref":"17"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"08c86c02-8df8-4123-8308-ef00c1666e70","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"argument_0","destinationUnit":{"$ref":"13"},"destinationKey":"%clip","guid":"1ebec0bb-a12c-41ed-8fde-4e7ea1864ea7","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"argument_1","destinationUnit":{"$ref":"13"},"destinationKey":"%position","guid":"52ee82d8-60b9-42f2-b4c0-a8815a558116","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}},"isStart":true,"position":{"x":-86.0,"y":-15.0},"width":170.0,"guid":"36820487-624e-4f52-9fd3-0b7a13f79539","$version":"A","$type":"Unity.VisualScripting.FlowState"}],"$version":"A"}}'
+    _objectReferences: []
