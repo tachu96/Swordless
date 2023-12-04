@@ -220,10 +220,10 @@ RectTransform:
   - {fileID: 1893352275}
   - {fileID: 973788862}
   - {fileID: 609083858}
-  - {fileID: 1400751730}
   - {fileID: 1902751855}
   - {fileID: 269465909}
   - {fileID: 1320602697}
+  - {fileID: 1400751730}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3782,6 +3782,7 @@ GameObject:
   - component: {fileID: 1400751730}
   - component: {fileID: 1400751732}
   - component: {fileID: 1400751731}
+  - component: {fileID: 1400751733}
   m_Layer: 5
   m_Name: SwordlessImage
   m_TagString: Untagged
@@ -3846,6 +3847,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1400751729}
   m_CullTransparentMesh: 1
+--- !u!95 &1400751733
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400751729}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5276017e23a59c1449dfb8143fd99499, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1412221755
 GameObject:
   m_ObjectHideFlags: 0
