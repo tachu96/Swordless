@@ -1070,6 +1070,7 @@ GameObject:
   - component: {fileID: 4986150338927081998}
   - component: {fileID: 1255416928509507872}
   - component: {fileID: 6043034890242477320}
+  - component: {fileID: 1650776854826928099}
   m_Layer: 2
   m_Name: Damage_Hitbox
   m_TagString: Untagged
@@ -1163,6 +1164,21 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.81199574
   m_Center: {x: -0.00000012696087, y: -0.00000019389229, z: -0.44614267}
+--- !u!114 &1650776854826928099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7598041142674326869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &9098997779721640723
 GameObject:
   m_ObjectHideFlags: 0
