@@ -2201,6 +2201,46 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 33558033}
     m_Modifications:
+    - target: {fileID: 1795557665939157955, guid: 87baaaf5609942a44bb5c3840a380bc6,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyHealthBar","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyHealth","value":{"$content":30.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerCamera","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyHealthBarBacking","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LayerMaskForRaycast","value":{"value":832,"$type":"UnityEngine.LayerMask"},"typeHandle":{"Identification":"UnityEngine.LayerMask,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerInRange","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanSeePlayer","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DigRange","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MoleManModel","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795557665939157955, guid: 87baaaf5609942a44bb5c3840a380bc6,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795557665939157955, guid: 87baaaf5609942a44bb5c3840a380bc6,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 1141285452}
+    - target: {fileID: 1795557665939157955, guid: 87baaaf5609942a44bb5c3840a380bc6,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 432296277}
+    - target: {fileID: 1795557665939157955, guid: 87baaaf5609942a44bb5c3840a380bc6,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 1209818688}
+    - target: {fileID: 1795557665939157955, guid: 87baaaf5609942a44bb5c3840a380bc6,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[3]
+      value: 
+      objectReference: {fileID: 1034320131}
     - target: {fileID: 2800367900463671767, guid: 87baaaf5609942a44bb5c3840a380bc6,
         type: 3}
       propertyPath: m_Radius
@@ -4602,6 +4642,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8879555361119967155, guid: 25ffe70d7e4fe6447be3a2a0d944b931,
     type: 3}
   m_PrefabInstance: {fileID: 420435554}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &432296277 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4690782588150209394, guid: 87baaaf5609942a44bb5c3840a380bc6,
+    type: 3}
+  m_PrefabInstance: {fileID: 162206002}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &434284120 stripped
 GameObject:
@@ -9471,6 +9517,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2c6f16b8893f9044a1a79b0c8487e92, type: 3}
+--- !u!1 &949580506 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3995176328987694999, guid: 87baaaf5609942a44bb5c3840a380bc6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1334099127}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &951430609
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10348,6 +10400,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3521401556555774189, guid: 12c10ff22ca444046a976b7ae728eee9,
     type: 3}
   m_PrefabInstance: {fileID: 1030907076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1034320131 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3995176328987694999, guid: 87baaaf5609942a44bb5c3840a380bc6,
+    type: 3}
+  m_PrefabInstance: {fileID: 162206002}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1035774526
 GameObject:
@@ -12577,6 +12635,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4675426917452918502, guid: 91852e26e6ae0644797d49f438f74b61,
     type: 3}
   m_PrefabInstance: {fileID: 645294549}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1209818688 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5988292036071326434, guid: 87baaaf5609942a44bb5c3840a380bc6,
+    type: 3}
+  m_PrefabInstance: {fileID: 162206002}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1213816602
 PrefabInstance:
@@ -15184,6 +15248,46 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -0.18552193
       objectReference: {fileID: 0}
+    - target: {fileID: 1795557665939157955, guid: 87baaaf5609942a44bb5c3840a380bc6,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyHealthBar","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyHealth","value":{"$content":30.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerCamera","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyHealthBarBacking","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LayerMaskForRaycast","value":{"value":832,"$type":"UnityEngine.LayerMask"},"typeHandle":{"Identification":"UnityEngine.LayerMask,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerInRange","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanSeePlayer","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DigRange","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MoleManModel","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795557665939157955, guid: 87baaaf5609942a44bb5c3840a380bc6,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795557665939157955, guid: 87baaaf5609942a44bb5c3840a380bc6,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 1141285452}
+    - target: {fileID: 1795557665939157955, guid: 87baaaf5609942a44bb5c3840a380bc6,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 2049349011}
+    - target: {fileID: 1795557665939157955, guid: 87baaaf5609942a44bb5c3840a380bc6,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 1602266562}
+    - target: {fileID: 1795557665939157955, guid: 87baaaf5609942a44bb5c3840a380bc6,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[3]
+      value: 
+      objectReference: {fileID: 949580506}
     - target: {fileID: 2800367900463671767, guid: 87baaaf5609942a44bb5c3840a380bc6,
         type: 3}
       propertyPath: m_Radius
@@ -18270,6 +18374,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2c6f16b8893f9044a1a79b0c8487e92, type: 3}
+--- !u!1 &1602266562 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5988292036071326434, guid: 87baaaf5609942a44bb5c3840a380bc6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1334099127}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1604444960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26508,6 +26618,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1498693016254129902, guid: a2c6f16b8893f9044a1a79b0c8487e92,
     type: 3}
   m_PrefabInstance: {fileID: 2048731871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2049349011 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4690782588150209394, guid: 87baaaf5609942a44bb5c3840a380bc6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1334099127}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2051943451
 GameObject:
